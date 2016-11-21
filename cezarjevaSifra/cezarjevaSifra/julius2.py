@@ -40,12 +40,12 @@ def desifriranje():
 
 while True:
     vprasanje1 = raw_input('Ali zelis sifrirati text DA/NE: ').upper()
-    # Ce da potem zacni program - funkcijo, ki bo sifriral
+    # Ce da potem zacni program, ki bo sifriral
     if vprasanje1 == 'DA':
         sifriranje()
     else:
         vprasanje2 = raw_input('Ali zelis desifrirati text DA/NE: ').upper()
-        # Ce da potem zazeni program - funkcijo za desifriranje
+        # Ce da potem zazeni program za desifriranje
 
         if vprasanje2 == 'DA':
             desifriranje()
